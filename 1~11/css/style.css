@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+.red {
+  font-weight: bold;
+}
+.red:hover {
+  color: red;
+}
+.yellow {
+  font-weight: bold;
+}
+.yellow:hover {
+  color: yellow;
+}
+.blue {
+  font-weight: bold;
+}
+.blue:hover {
+  color: blue;
+}
+.green {
+  font-weight: bold;
+}
+.green:hover {
+  color: green;
+}
+#fav {
+  font-size: 24px;
+  color: orange;
+  font-weight: bold;
+}
+li {
+  list-style: none;
+}
+
+#ex_03 > li > a {
+  text-decoration-line: none;
+}
+#ex_03 > .colorTxt2 > a {
+  background-color: #0088cc;
+  color: white;
+}
+
+#ex_04 > li > a > span {
+  color: #f00;
+  font-style: italic;
+}
+#ex_04 > li > a {
+  text-decoration: none;
+}
+
+#ex_05 > div div > span > span {
+  background-color: #f66;
+  color: #f00;
+  font-weight: bold;
+}
+
+#ex_06 > div p:nth-child(3) {
+  display: inline;
+  color: white;
+  background-color: #0a3;
+}
+
+#ex_07 > p:nth-of-type(4) {
+  background-color: #fa3;
+  font-size: 30px;
+}
+
+#ex_08 a {
+  color: #777;
+  text-decoration: none;
+}
+
+#ex_08 ul {
+  padding: 0;
+}
+
+#ex_08 li {
+  color: #2b3;
+}
