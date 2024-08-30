@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Pen+Script&display=swap');
 
 .red {
   font-weight: bold;
@@ -66,7 +68,7 @@ li {
   font-size: 30px;
 }
 
-#ex_08 a {
+a {
   color: #777;
   text-decoration: none;
 }
@@ -75,6 +77,79 @@ li {
   padding: 0;
 }
 
-#ex_08 li {
+.vision{
+  color: #f85;
+}
+.meterial{
+  font-size: 25px;
+  color: blue;
+}
+
+.product{
   color: #2b3;
+}
+
+
+#ex_09{
+  background-color: #aaa;
+  text-align: center;
+  line-height: 100px;
+  width: 100px;
+}
+
+#ex_09 .box1{
+  width: 100px;
+  height: 100px;
+  background-color: #aaa;
+  text-align: center;
+  line-height: 100px;
+}
+#ex_09 .box2{
+  width: 100px;
+  height: 100px;
+  background-color: #faf;
+  text-align: center;
+  line-height: 100px;
+}
+
+#ex_09 .box3{
+  width: 100px;
+  height: 100px;
+  background-color: #aaa;
+  text-align: center;
+  line-height: 100px;
+}
+
+#ex_09 .box4{
+  width: 100px;
+  height: 100px;
+  background-color: #faf;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+
+
+#ex_10 h4{
+  font-size: 26px;
+  color: #27e;
+  font-family: "Nanum Gothic";
+  text-align: center;
+  
+  
+}
+
+.alice_img{
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  vertical-align: baseline;
+
+  
+}
+
+.alice{
+    font-family: "Nanum Pen Script";
+    font-size: 28px;
 }
