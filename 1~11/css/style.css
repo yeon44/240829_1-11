@@ -131,25 +131,23 @@ a {
 
 
 
+#ex_10{
+  text-align: center;
+}
 #ex_10 h4{
   font-size: 26px;
   color: #27e;
   font-family: "Nanum Gothic";
-  text-align: center;
-  
   
 }
 
-.alice_img{
-  display: block;
+#ex_10 img{
   width: 120px;
-  margin: 0 auto;
-  vertical-align: baseline;
-
+  
   
 }
 
-.alice{
+#ex_10 h4 > span{
     font-family: "Nanum Pen Script";
     font-size: 28px;
 }
