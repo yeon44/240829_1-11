@@ -1,7 +1,7 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Pen+Script&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .red {
   font-weight: bold;
 }
@@ -77,34 +77,33 @@ a {
   padding: 0;
 }
 
-.vision{
+.vision {
   color: #f85;
 }
-.meterial{
+.meterial {
   font-size: 25px;
   color: blue;
 }
 
-.product{
+.product {
   color: #2b3;
 }
 
-
-#ex_09{
+#ex_09 {
   background-color: #aaa;
   text-align: center;
   line-height: 100px;
   width: 100px;
 }
 
-#ex_09 .box1{
+#ex_09 .box1 {
   width: 100px;
   height: 100px;
   background-color: #aaa;
   text-align: center;
   line-height: 100px;
 }
-#ex_09 .box2{
+#ex_09 .box2 {
   width: 100px;
   height: 100px;
   background-color: #faf;
@@ -112,7 +111,7 @@ a {
   line-height: 100px;
 }
 
-#ex_09 .box3{
+#ex_09 .box3 {
   width: 100px;
   height: 100px;
   background-color: #aaa;
@@ -120,7 +119,7 @@ a {
   line-height: 100px;
 }
 
-#ex_09 .box4{
+#ex_09 .box4 {
   width: 100px;
   height: 100px;
   background-color: #faf;
@@ -128,26 +127,331 @@ a {
   line-height: 100px;
 }
 
-
-
-
-#ex_10{
+#ex_10 {
   text-align: center;
 }
-#ex_10 h4{
+#ex_10 h4 {
   font-size: 26px;
   color: #27e;
   font-family: "Nanum Gothic";
-  
 }
 
-#ex_10 img{
+#ex_10 img {
   width: 120px;
-  
-  
 }
 
-#ex_10 h4 > span{
-    font-family: "Nanum Pen Script";
-    font-size: 28px;
+#ex_10 h4 > span {
+  font-family: "Nanum Pen Script";
+  font-size: 28px;
 }
+
+#ex_12 {
+  padding: 20px 20px;
+  background-color: #a11;
+}
+
+#ex_12 > div {
+  background-image: url(../img/img_12_01.jpeg);
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+#ex_12 > div:nth-child(2) {
+  background-image: url(../img/img_12_02.jpeg);
+  background-size: cover;
+  width: 300px;
+  height: v 400px;
+}
+
+#ex_13 {
+  height: 400px;
+  padding: 20px 20px;
+  border: 1px solid #a11;
+}
+
+#ex_13 div {
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+  background-image: url(../img/img_13_01.jpeg);
+  float: left;
+}
+
+#ex_13 div:nth-child(2) {
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+  background-image: url(../img/img_13_02.jpeg);
+  float: left;
+}
+
+#ex_14 {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 40px 0px;
+  background-color: #fdd;
+}
+#ex_14:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#ex_14 div {
+  margin: 0px 10px 0px 10px;
+  width: 31.3%;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% 25%;
+  float: left;
+}
+
+#ex_14 div:nth-child(1) {
+  background-image: url(../img/w_01.jpg);
+}
+
+#ex_14 div:nth-child(2) {
+  background-image: url(../img/w_02.jpg);
+}
+#ex_14 div:nth-child(3) {
+  background-image: url(../img/w_03.jpg);
+
+}
+
+/* 가운데 정렬이 안됨, 문제에 가로값이 안정해져있는데 어떻게? */
+
+#ex_15 {
+  width: 1200px;
+  height: 440px;
+  margin: auto;
+  padding: 40px 0px;
+  background-color: #fdd;
+}
+
+#ex_15 .box {
+  width: 280px;
+  height: 440px;
+  float: left;
+  margin: 0 10px 0 10px;
+  background-size: cover;
+  background-position: 50% 25%;
+}
+#ex_15 .box:after {
+  clear: both;
+}
+
+#ex_15 .box .img {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% 25%;
+}
+
+#ex_15 .box:nth-child(1) .img {
+  background-image: url(../img/f_01.jpeg);
+}
+#ex_15 .box:nth-child(2) .img {
+  background-image: url(../img/f_02.jpeg);
+}
+#ex_15 .box:nth-child(3) .img {
+  background-image: url(../img/f_03.jpeg);
+}
+#ex_15 .box:nth-child(4) .img {
+  background-image: url(../img/f_04.jpeg);
+}
+
+#ex_15 .box h4 {
+  line-height: px;
+  font-size: 22px;
+  font-family: "Poppins";
+  text-align: center;
+  font-weight: 500;
+}
+
+/* 폰트부분에 밑배경 어떻게?, lh 40px로 하면 결과물처럼 안나옴*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#ex_16{
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  padding: 20px 20px;
+  background-color: #caa;
+}
+
+#ex_16 .img_part{
+  width: 300px;height: 400px;
+  background-size: cover;
+  background-position: 50% 50%;
+  float: left;
+  background-image: url(../img/img_12_01.jpeg);
+}
+
+#ex_16 .txt_part{
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin-left: 100px;
+}
+
+#ex_16 .txt_part h4{
+  font-size: 32px;
+  font-family: "Great Vibes", cursive;
+  color: white;
+  padding: 20px 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+#ex_16 .txt_part p{
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+
+
+#ex_17{
+  width: 800px;
+  height: auto;
+  padding: 20px;
+  background-color: #caa;
+  margin: auto;
+
+}
+#ex_17::after{
+  clear: both;
+}
+
+#ex_17 .img_part{
+  width: 300px;
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(../img/img_17_01.jpeg);
+  float: left;
+}
+#ex_17 .txt_part{
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  float: left;
+}
+
+#ex_17 .txt_part h4{
+  font-size: 32px;
+  color: white;
+  padding: 20px 0;
+  font-family: "Great Vibes", cursive;
+  margin-top: 0;
+}
+
+#ex_17 .txt_part p{
+  font-size: 17px;
+  font-family: "Poppins";
+  color: white;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+#ex_18 .top{
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+  background-color: #caa;
+  margin: auto;
+}
+
+#ex_18 .top::after{
+  clear: both;
+}
+
+#ex_18 .top .img_part{
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  float: left;
+  background-image: url(../img/f_01.jpeg);
+}
+
+#ex_18 .top .txt_part{
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  float: right;
+}
+
+#ex_18 .top .txt_part h4{
+  font-size: 32px;
+  font-family: "Great Vibes", cursive;
+  color: white;
+  padding: 20px 0;
+  margin-top: 0;
+}
+
+#ex_18 .top .txt_part p{
+  font-size: 17px;
+  font-family: "Poppins";
+  color: white;
+  font-weight: 300;
+  float: left;
+  margin-top: 0;
+
+}
+
+
+#ex_18 .bottom {
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+  background-color: #caa;
+  margin: auto;
+
+}
+#ex_18 .bottom::after{
+  clear: both;
+}
+
+#ex_18 .bottom .img_part{
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../img/f_02.jpeg);
+  float: right;
+}
+
+#ex_18 .bottom .txt_part{
+  width: 400px;
+  height: 400px;
+  margin-right: 100px;
+  float: left;
+
+}
+
+#ex_18 .bottom .txt_part h4{
+  font-size: 32px;
+  font-family: "Great Vibes", cursive;
+  color: white;
+  padding: 20px 0;
+  margin-top: 0;
+
+}
+
+
+
+#ex_18 .bottom .txt_part p{
+  font-size: 17px;
+  font-family: "Poppins";
+  color: white;
+  font-weight: 300;
+  float: left;
+  margin-top: 0;
+
+}
+
